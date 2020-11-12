@@ -1,0 +1,15 @@
+name: sample_ek80
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - matplotlib
+  - pytz
+  - future
+  - basemap
+  - cartopy
+  - lxml
+  - pip
+  - pip:
+    - "--editable=git+https://github.com/iambaim/pyEcholab.git@RHT-EK80#egg=pyEcholab-EK80"
